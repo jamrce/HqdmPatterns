@@ -12,7 +12,7 @@ One of the first HQDM patterns that is key to many of the more involved patterns
 
 This is the first use of a spacetime diagram in this documentation.  These diagrams are useful in showing how distinct, physical things relate to each other (in whole and in part).
 
-The diagram below indicates that a whole-life `individual` exists between two instants in time (`t0` and `t3`) and has a single tamporal part, a `state` between `t1` and `t2`.  The actual physical thing that it represents may extend beyond those events and there may (will!) be many more states of it.  It is an information quality decision how diligently the representation is created and maintained to corrrespond to the actual (or possible) *individual* in the real world.
+The diagram below indicates that a whole-life `individual` exists between two instants in time (`t0` and `t3`) and has a single temporal part, a `state` between `t1` and `t2`.  The actual physical thing that it represents may extend beyond those events and there may (will!) be many more states of it.  It is an information quality decision how diligently the representation is created and maintained to corrrespond to the actual (or possible) *individual* in the real world.
 
 ![Individual X and State Of X](../extras/source-images/individualX.svg)
 
@@ -43,7 +43,7 @@ The full data object pattern for the `individual` and a `state` that is `tempora
 
     1. In the powerset of all states there are sets that correspond to the set of whole-life states.  HQDM recognises them as an entity type that is a subset of the powerset of sets of states.  There are some nuances to this but is beyond the scope of this documentation.  HQDM took a pragmatic stance to address this as a model design decision.
 
-    2. Working out and implementing the `beginning` and `ending` of any state requires care.  It can often be easier to identify the start &/or end events of temporal parts (from whicch minimum temporal extents of the whole can be derived).  Working out what is appropriate is an implementation decision.
+    2. Working out and implementing the `beginning` and `ending` of any state requires care.  It can often be easier to identify the start &/or end events of temporal parts (from which minimum temporal extents of the whole can be derived).  Working out what is appropriate is an implementation decision.
 
     3. Can we afford not to employ whole-life states?  It can be very diffcult to keep track of states if it isn't clear what they are part of.  The `individual` entity type provides a pragmatic mechanism to address this.  This is a modelling decision.
 
