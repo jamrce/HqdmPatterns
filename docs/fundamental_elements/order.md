@@ -4,7 +4,7 @@ This is perhaps the most easily overlooked, and hardest to address, fundamental 
 
 --8<-- "relNodeEdgeGraph.mermaid"
 
-There are a number of applications of order in data models but for our integration data model we have 4-dimensionalist comittments.  These include dealing with events (that are temporal boundaries of states, one at the start, `beginning`, and end, `ending`) and various ways of ordering those events (perhaps with a metric that represents time such as a date-time record):
+There are a number of applications of order in data models but for our integration data model we have 4-dimensionalist commitments.  These include dealing with events (that are temporal boundaries of states, one at the start, `beginning`, and end, `ending`) and various ways of ordering those events (perhaps with a metric that represents time such as a date-time record):
 
 --8<-- "orderEventsNodeEdgeGraph.mermaid"
 
